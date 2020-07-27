@@ -1,55 +1,56 @@
 {
-    "@context": {
-      "@version": 1.1,
-      "id": "@id",
-      "type": "@type",
-      "ex": "https://example.org/examples#",
-      "name": "http://schema.org/name",
-      "description": "http://schema.org/description",
-      "image": {
-        "@id": "http://schema.org/image",
-        "@type": "@id"
-      },
-      "hetc": "https://w3c-ccg.github.io/vc-json-schemas/example/cmtr/v0.2/cmtr-v0.2#",
-      "MyData": {
-        "@id": "ex:MyData",
-        "@context": {
-          "@version": 1.1,
-          "@protected": true,
-          "id": "@id",
-          "type": "@type",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "ex": "https://example.org/examples#",
-          "name": {
-            "@id": "ex:name",
-            "@type": "xsd:string"
-          },
-          "description": "http://schema.org/description",
-          "email": {
-            "@id": "ex:email",
-            "@type": "xsd:string"
-          },
-          "gender": {
-            "@id": "ex:gender",
-            "@type": "xsd:string"
-          },
-          "customerid": {
-            "@id": "ex:customerid",
-            "@type": "xsd:string"
-          },
-          "birth": {
-            "@id": "ex:birth",
-            "@type": "xsd:string"
-          },
-          "diorti": {
-            "@id": "ex:diorti",
-            "@type": "xsd:string"
-          },
-          "expdate": {
-            "@id": "ex:expdate",
-            "@type": "xsd:string"
-          }
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "ex": "https://example.org/examples#",
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "image": {
+      "@id": "http://schema.org/image",
+      "@type": "@id"
+    },
+    "hetc": "https://w3c-ccg.github.io/vc-json-schemas/example/cmtr/v0.2/cmtr-v0.2#",
+    "MyData": {
+      "@id": "ex:MyData",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "ex": "https://example.org/examples#",
+        "name": "http://schema.org/name",
+        "description": "http://schema.org/description",
+        "name": {
+          "@id": "ex:name",
+          "@type": "xsd:string"
+        },
+        "email": {
+          "@id": "ex:email",
+          "@type": "xsd:string"
+        },
+        "gender": {
+          "@id": "ex:gender",
+          "@type": "xsd:string"
+        },
+        "customerid": {
+          "@id": "ex:customerid",
+          "@type": "xsd:string"
+        },
+        "birth": {
+          "@id": "ex:birth",
+          "@type": "xsd:string"
+        },
+        "diorti": {
+          "@id": "ex:diorti",
+          "@type": "xsd:string"
+        },
+        "expdate": {
+          "@id": "ex:expdate",
+          "@type": "xsd:string"
         }
       }
     }
   }
+}
